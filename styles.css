@@ -1,0 +1,6 @@
+body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+.glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+.gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; border-color: #38bdf8; }
+.section-reveal { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
+.section-reveal.active { opacity: 1; transform: translateY(0); }
